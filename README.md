@@ -23,27 +23,29 @@ O programa é dividido em 6 funcoes.
 
 A funcao imprimir_jogo recebe uma uma lista matriz, e ela é responsavel por imprimir essa matriz de forma que o será impressa em forma de grade como o jogo da velha.  
 
-![Funcao imprimir_jogo]()  
+![Funcao imprimir_jogo](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/imprimir_jogo.png)  
 
 #### Funcao jogada  
 
 A funcao jogada recebe 2 matrizes, e uma escolha, caso a escolha seja 1, o simbolo usado será o X, se não, o simbolo será 0. O programa inicia um laço que só sairia no momento que o usuário digitar uma coluna e linha válida e que nao esteja ocupada. Saindo do laço, é inserido nas matrizes o simbolo e é retornado as matrizes.  
 
-![Funcao jogada]()  
+![Funcao jogada](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/jogada.png)  
 
 #### Funcao check
 
 A funcao check recebe uma lista. 9 flags são iniciadas com 0 e começa uma sequencia de estruturas condicionais para verificar se algum dos jogadores ganhou e retorna uma lista com essas flags.
 
-![Funcao check]()  
+![Funcao check](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/funcaoCheck1.png)  
+![Funcao check](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/funcaoCheck2.png)
+![Funcao check](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/funcaoCheck3.png)  
 
 #### Funcao comecar_jogo
 A funcao comecar_jogo recebe um contador, 3 flags, 2 matrizes e uma lista de flags. Essa funcao é resposável por comecar o jogo. A funcao inicia perguntando ao usuário se o primeiro player ficará com X ou 0. Após isso, comeca um laço que irá chamar a função imprimir_jogo para imprimir em forma de grade ao usuário. Após isso, é chamada a função jogada e após isso a função check. Caso a função check retorne um ganhador, ou um empate, o laço termina e chama a função jogar_novamente. 
 
-![Funcao comecar_jogo1]()
-![Funcao comecar_jogo2]()  
+![Funcao comecar_jogo1](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/comecar_jogo1.png)
+![Funcao comecar_jogo2](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/comecar_jogo2.png)  
 
 #### Funcao jogar_novamente  
 A funcao jogar novamente tem o objetivo de reiniciar o jogo com todas as variaveis zeradas. Caso o usuário escolha nao continuar o jogo, o programa para.  
 
-![Funcao jogar_novamente]()
+![Funcao jogar_novamente](https://github.com/pauloszuparits/Imagens/blob/9d464c731fb2e070e31892a2a55e591d595eccc8/DocTecnicaJogoDaVelha/jogar_novamente.png)
